@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.arrow-down {
+    -webkit-animation: bounce 2600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95); 
+    animation: bounce 2600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95); 
+    font-size: 20px;
+    -webkit-transform-origin: 0% 0;
+    -ms-transform-origin: 0% 0;
+    transform-origin: 0% 0;
+}
+
+@keyframes bounce {
+    50% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px)
+    }
+}
