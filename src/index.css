@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: #1d1e21;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background:#bcbabe;
+    border-radius: 10px;
+}
+
+
 .arrow-down {
     -webkit-animation: bounce 2600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95); 
     animation: bounce 2600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95); 
