@@ -2,8 +2,9 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
     const navLinks = [
-        {id: 1, title: 'Work', url: ''},
-        {id: 2, title: 'Blog', url: ''},
+        {id: 1, title: 'Projects', url: ''},
+        {id: 2, title: 'Education', url: ''},
+        // {id: 2, title: 'Blog', url: ''},
         {id: 3, title: 'About', url: ''},
         {id: 4, title: 'Contact', url: ''}
     ]
