@@ -26,6 +26,7 @@ body {
     transform-origin: 0% 0;
 }
 
+
 @keyframes bounce {
     50% {
         -webkit-transform: translateY(100px);

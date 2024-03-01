@@ -2,6 +2,7 @@ import reactImg from '../assets/react.svg'
 import jsImg from '../assets/js.svg'
 import pyImg from '../assets/python.svg'
 import tailwindImg from '../assets/tailwind.svg'
+import Pageheader from './Pageheader'
 
 function Skills() {
     const skills = [
@@ -15,19 +16,11 @@ function Skills() {
             id="skills"
             className="w-full h-fit relative"
         >
-            <div className="w-full h-fit flex flex-col p-3 mt-[8rem] mb-10">
-                <h1
-                    className="text-[13px] tracking-[2px] mb-[5px] text-[#aaaaaa] font-[600]  w-full text-center"
-                >
-                    SKILLS
-                </h1>
-                <h2 
-                    className=" w-full text-center text-[28px] lg:text-[40px] font-[600] text-white leading-6"
-                >
-                    Skills I Have Aquired So Far
-                </h2>
-            </div>
-
+            <Pageheader 
+                title={'SKILLS'}
+                subTitle={'Skills I Have Aquired So Far'}
+            />
+            
             <section className=" h-fit w-full relative flex justify-center items-center mb-[5rem]">
                 <section 
                     style={{
