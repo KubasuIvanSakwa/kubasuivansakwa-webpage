@@ -1,3 +1,5 @@
+import Education from "./Education"
+import Experience from "./experience/Experience"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
 import Skills from "./Skills"
@@ -7,6 +9,8 @@ function Layout() {
             <Navbar />
             <Hero />
             <Skills />
+            <Experience />
+            {/* <Education /> */}
         </section>
     )
 }
