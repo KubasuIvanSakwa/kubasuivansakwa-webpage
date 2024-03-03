@@ -26,6 +26,9 @@ body {
     transform-origin: 0% 0;
 }
 
+.card-btn:hover img {
+    filter: grayscale(0);
+}
 
 @keyframes bounce {
     50% {

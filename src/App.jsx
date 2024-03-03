@@ -11,7 +11,6 @@ function App() {
   const routes = createBrowserRouter(createRoutesFromElements(
     <Route>
       <Route path="/" element={<Layout />}>
-      
       </Route>
     </Route>
 ))
