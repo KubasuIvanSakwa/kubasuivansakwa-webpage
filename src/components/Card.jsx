@@ -1,5 +1,5 @@
 import Pageheader from "./Pageheader"
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 function Card(props) {
     return (
@@ -29,10 +29,10 @@ function Card(props) {
                             style={{
                                 border: '1px solid rgba(255, 255, 255, 0.3)'
                             }}
-                            className={` ${props.cardsheight} flex flex-col justify-center items-center p-[20px]`}
+                            className={` ${props.cardsheight} card-btn rounded-lg flex flex-col justify-center items-center p-[20px]`}
                         >
                             <div>
-                                <img src={item.image} className={`${props.imagewidth} opacity-1 grayscale hover:grayscale-0`}/>
+                                <img src={item.image} className={`${props.imagewidth} opacity-1 grayscale`}/>
                             </div>
                             <div className="relative bottom-[0.1rem] flex flex-col justify-center items-center">
                                 <p className="text-[20px] font-[600] text-[#e6e5e5c0]">{item.title}</p>
@@ -41,6 +41,7 @@ function Card(props) {
                         </Link>
                     ))}
                 </section>
+                <Outlet />
             </section>
             <hr 
                 style={{
