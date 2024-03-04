@@ -1,3 +1,4 @@
+import { useParams } from "react-router-dom"
 import Pageheader from "./Pageheader"
 
 /*
@@ -6,13 +7,18 @@ import Pageheader from "./Pageheader"
     --> add this section when skill button clicked
 */
 function Description() {
+
+    const { idno } = useParams()
+
     return (
         <section>
             <button>
                 back
             </button>
             <section>
-                <Pageheader />
+                <Pageheader 
+                    subTitle={`${idno}`}
+                />
             </section>
         </section>
     )
