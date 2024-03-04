@@ -14,7 +14,7 @@ function App() {
     <Route>
       <Route path="/" element={<Layout />}>
         <Route index element={<Pages />} />
-        <Route path="/description" element={<Description />} />
+        <Route path="/description/:idno" element={<Description />} />
       </Route>
     </Route>
 ))
