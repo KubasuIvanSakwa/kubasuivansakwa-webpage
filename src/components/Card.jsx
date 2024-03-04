@@ -26,6 +26,7 @@ function Card(props) {
                     {props.identifier?.map((item) => (
                         <Link 
                             key={item.id}
+                            to="/description"
                             style={{
                                 border: '1px solid rgba(255, 255, 255, 0.3)'
                             }}
