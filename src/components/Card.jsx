@@ -10,6 +10,7 @@ function Card(props) {
             <Pageheader 
                 title={`${props.title}`}
                 subTitle={`${props.subTitle}`}
+                mt={'mt-[8rem]'}
             />
             
             <section
@@ -30,7 +31,7 @@ function Card(props) {
                             style={{
                                 border: '1px solid rgba(255, 255, 255, 0.3)'
                             }}
-                            className={` ${props.cardsheight} card-btn rounded-lg flex flex-col justify-center items-center p-[20px]`}
+                            className={` ${props.cardsheight} card-btn rounded-lg flex flex-col justify-center items-center p-[20px] hover:bg-black/10`}
                         >
                             <div>
                                 <img src={item.image} className={`${props.imagewidth} opacity-1 grayscale`}/>

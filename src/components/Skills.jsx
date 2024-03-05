@@ -8,7 +8,7 @@ function Skills() {
     const skills = [
         {id: 1, title: 'React', image: `${reactImg}`},
         {id: 2, title: 'Tailwind', image: `${tailwindImg}`},
-        {id: 3, title: 'Javasctipt', image: `${jsImg}`},
+        {id: 3, title: 'Javascript', image: `${jsImg}`},
         {id: 4, title: 'Python', image: `${pyImg}`},
     ]
     return (
