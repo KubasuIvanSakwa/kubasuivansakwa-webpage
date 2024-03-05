@@ -1,7 +1,7 @@
 
-function Pageheader({title, subTitle}) {
+function Pageheader({title, subTitle, mt}) {
     return (
-        <div className="w-full h-fit flex flex-col p-3 mt-[8rem] mb-10">
+        <div className={`w-full h-fit flex flex-col p-3 ${mt} mb-10`}>
             <h1
                     className="text-[13px] tracking-[2px] mb-[5px] text-[#aaaaaa] font-[600]  w-full text-center"
                 >
