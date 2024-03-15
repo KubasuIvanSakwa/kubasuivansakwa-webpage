@@ -9,18 +9,6 @@ function Description() {
     const active = [projects.find((item) => item?.usedTech === idno || item?.language2 === idno)]
     console.log(active)
 
-    const [hoveredButtonId, setHoveredButtonId] = useState(null)
-
-
-
-    const handleMouseOver = (buttonId) => {
-        setHoveredButtonId(buttonId);
-    };
-
-    const handleMouseOut = () => {
-        setHoveredButtonId(null);
-    };
-
     return (
         <section>
             <Link
