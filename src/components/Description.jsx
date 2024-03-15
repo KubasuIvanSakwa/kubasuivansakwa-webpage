@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Pageheader from "./Pageheader";
 import projects from './projects';
